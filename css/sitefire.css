@@ -1,0 +1,80 @@
+/*
+█▀▀ ▀▀█▀▀ █░░█ █░░ █▀▀   █▀▀ █░░█ █▀▀ █▀▀ ▀▀█▀▀
+▀▀█ ░░█░░ █▄▄█ █░░ █▀▀   ▀▀█ █▀▀█ █▀▀ █▀▀ ░░█░░
+▀▀▀ ░░▀   ▄▄▄█ ▀▀▀ ▀▀▀   ▀▀▀ ▀░░▀ ▀▀▀ ▀▀▀ ░░▀░░ 
+*/
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+img.main-important-menus{
+	height:40px;width:50px;
+}
+#policytxt{color:#fff;text-decoration:none;
+}
+/* Back To Top Button css */
+	#backtotop {display: none;position: fixed;bottom: 20px;right: 30px;
+				z-index: 99; font-weight:bold;font-size: 18px;border: none;outline: none;background-color: #ff8b5f;
+				color:#fff;cursor: pointer;padding: 6px;border-radius: 4px;
+				}
+	#backtotop:hover {background-color: #FFC107;}
+/*responsive for mobile view (only for font)*/
+@media screen and (max-width:950px)
+{
+	h1#sitefire,h4#sitefire,h3#sitefire{font-size:15px; font-weight:bold;}	
+}
+p#sofnt{font-size:20px;font-weight:bold;}
+p.movieclass{
+	text-align:justify;text-overflow:none;font-family: Georgia,Times,Times New Roman,serif;
+}
+p.extramovies{text-align:justify;text-overflow:none;color:#3366cc;}p.nonmovie{text-align:justify;text-overflow:none;}
+/*button css */
+a#square_btn{font-weight:bold;}
+/*porn sites classes and css */
+p.fuckpornclass{
+	text-align:justify;text-overflow:none;font-family: Georgia,Times,Times New Roman,serif;
+}
+a.pornoline{
+	border-bottom:5px solid #ea1c67;
+	border-right:5px solid #ea1c67;
+	border-left:5px solid #ea1c67;
+	border-top:0.5px solid #ea1c67;
+	border-radius:15%;
+	line-height:1.7em;
+	padding:0% 1% 0% 1%;
+	}
+/* windows scrollbar style */
+body::-webkit-scrollbar {
+    width: 1em;
+}
+/* Track */
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+} 
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #ff8b5f ; 
+  border-radius: 10px;
+}
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #FFC107 ; 
+}
+p.movies{text-align:justify;text-overflow:none;}
+div.footer{position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;}
